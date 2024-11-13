@@ -100,16 +100,12 @@
     </div>
 </section>
 <section id="pet-listing-container">
-    <div class="listing-wrapper" *ngFor="let petsListing of petsListingList; index as i">
+    <div class="listing-wrapper" *ngFor="let petsListing of petsListingList">
         <app-pets-listing
-                      [petsListing]="petsListing" onclick="displayPetsDetails(i)">
+                      [petsListing]="petsListing">
         </app-pets-listing>
     </div>
 </section>
-
-
-
-
 <!-- 
 <section id="Filters">  
     <div class="FilterLeft">
@@ -127,8 +123,3 @@
         
     </div>
 </section> -->
-<section id="adopt">
-    <app-pets-listing *ngFor="let petsListing of petsListingList" 
-                      [petsListing]="petsListing">
-    </app-pets-listing>
-</section>
