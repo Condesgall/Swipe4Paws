@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PetsListingComponent } from '../pets-listing/pets-listing.component';
+import { PetsListingComponent } from '../pets-listing/pets-listing-view/pets-listing.component';
 
 
 @Component({
