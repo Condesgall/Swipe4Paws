@@ -10,7 +10,7 @@ import { PetsListing } from '../../models/pets-listing';
   styleUrl: './shelters.component.css'
 })
 export class SheltersComponent {
-  pet: PetsListing = {
+  /*pet: PetsListing = {
     id: 0,
     name: '',
     age: 0,
@@ -20,13 +20,13 @@ export class SheltersComponent {
     city: '',
     postDate: new Date(),
     photo: ''
-  };
+  };*/
 
   constructor(private petDataService: PetDataService) {}
-
+/*
   onSubmit(): void {
     this.pet.id = Date.now();
     this.petDataService.addPet(this.pet);
     this.pet = { ...this.pet, id: 0, name: '', age: 0, type: '', gender: '', behavior: [], city: '', photo: ''};
-  }
+  } */
 }
