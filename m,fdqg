@@ -1,0 +1,130 @@
+integrate petbox changes
+
+# Conflicts:
+#	frontend/src/app/home/home-view/home.component.html
+#	frontend/src/app/pets-details/pets-details-view/pets-details.component.html
+#	frontend/src/app/pets-details/pets-details-view/pets-details.component.ts
+#	frontend/src/app/pets-listing/pets-listing-view/pets-listing.component.css
+#	frontend/src/app/pets-listing/pets-listing-view/pets-listing.html
+#	frontend/src/app/shelters/shelters-view/shelters.component.ts
+#	frontend/src/routes.ts
+#	package-lock.json
+#	package.json
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto 1bd8690d
+# Last command done (1 command done):
+#    pick 3bf499f4 integrate petbox changes
+# Next commands to do (2 remaining commands):
+#    pick 4bde2596 pet box
+#    pick c7c03c20 delete files
+# You are currently rebasing branch 'petdetails' on '1bd8690d'.
+#
+# Changes to be committed:
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/.tsbuildinfo
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_common.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_common.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_core.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_core.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_forms.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_forms.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_core.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_core.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_expansion.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_expansion.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_form-field.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_form-field.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_icon.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_icon.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_select.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_material_select.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_platform-browser.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_platform-browser.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_platform-browser_animations_async.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_platform-browser_animations_async.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_router.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@angular_router.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@fortawesome_angular-fontawesome.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@fortawesome_angular-fontawesome.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@fortawesome_free-solid-svg-icons.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/@fortawesome_free-solid-svg-icons.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/_metadata.json
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/browser-IJFAULLS.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/browser-IJFAULLS.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-3PP4H6H5.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-3PP4H6H5.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-4LQWLJ33.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-4LQWLJ33.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-AR32AHU3.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-AR32AHU3.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-CQHHHHIO.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-CQHHHHIO.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-GHF2QXV5.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-GHF2QXV5.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-M2YEBRT6.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-M2YEBRT6.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-NALYHUG3.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-NALYHUG3.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-WDMUDEB6.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-WDMUDEB6.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-XDPO3ZUT.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/chunk-XDPO3ZUT.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps/package.json
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_common.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_common.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_core.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_core.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_forms.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_forms.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_core.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_core.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_expansion.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_expansion.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_form-field.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_form-field.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_icon.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_icon.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_select.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_material_select.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_platform-browser.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_platform-browser.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_platform-server.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_platform-server.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_router.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@angular_router.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@fortawesome_angular-fontawesome.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@fortawesome_angular-fontawesome.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@fortawesome_free-solid-svg-icons.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/@fortawesome_free-solid-svg-icons.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/_metadata.json
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-AX46CW6A.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-AX46CW6A.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-EDNR227D.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-EDNR227D.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-FR3KDL3F.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-FR3KDL3F.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-KX5T5O6I.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-KX5T5O6I.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-NQ4HTGF6.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-NQ4HTGF6.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-QV4AETBA.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-QV4AETBA.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-S62TA3XX.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-S62TA3XX.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-X5IZTIG5.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-X5IZTIG5.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-XS5DR5HS.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/chunk-XS5DR5HS.js.map
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/package.json
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/xhr2-V6AUKWKL.js
+#	new file:   frontend/.angular/cache/18.2.11/swipe4paws/vite/deps_ssr/xhr2-V6AUKWKL.js.map
+#	modified:   frontend/src/app/home/home-view/home.component.html
+#	new file:   frontend/src/app/navigation/navigation.component.ts
+#	modified:   frontend/src/app/pets-details/pets-details-view/pets-details.component.html
+#	modified:   frontend/src/app/pets-listing/pets-listing-view/pets-listing.html
+#	modified:   frontend/src/app/shelters/shelters-view/shelters.component.ts
+#	modified:   package-lock.json
+#	modified:   package.json
+#
